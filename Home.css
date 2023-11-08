@@ -26,6 +26,24 @@
   margin: 35px auto 0;
 }
 
+.u-section-1 .u-icon-1 {
+  width: 23px;
+  height: 23px;
+  background-image: none;
+  color: rgb(255, 255, 255) !important;
+  margin: -58px auto 0 calc(((100% - 1140px) / 2) + 444px);
+  padding: 4px;
+}
+
+.u-section-1 .u-icon-2 {
+  width: 23px;
+  height: 23px;
+  background-image: none;
+  color: rgb(255, 255, 255) !important;
+  margin: 12px auto 0 calc(((100% - 1140px) / 2) + 444px);
+  padding: 4px;
+}
+
 .u-section-1 .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
@@ -35,15 +53,15 @@
   margin: -125px auto 0;
 }
 
-.u-section-1 .u-icon-1 {
+.u-section-1 .u-icon-3 {
   color: rgb(59, 89, 152) !important;
 }
 
-.u-section-1 .u-icon-2 {
+.u-section-1 .u-icon-4 {
   color: rgb(197, 54, 164) !important;
 }
 
-.u-section-1 .u-icon-3 {
+.u-section-1 .u-icon-5 {
   color: rgb(0, 122, 185) !important;
 }
 
@@ -54,6 +72,14 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
     margin-left: calc(((100% - 940px) / 2) + 453px);
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-left: calc(((100% - 940px) / 2) + 366px);
+  }
+
+  .u-section-1 .u-icon-2 {
+    margin-left: calc(((100% - 940px) / 2) + 366px);
   }
 
   .u-section-1 .u-social-icons-1 {
@@ -76,6 +102,14 @@
     width: 720px;
   }
 
+  .u-section-1 .u-icon-1 {
+    margin-left: calc(((100% - 720px) / 2) + 280px);
+  }
+
+  .u-section-1 .u-icon-2 {
+    margin-left: calc(((100% - 720px) / 2) + 280px);
+  }
+
   .u-section-1 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
@@ -91,6 +125,14 @@
     width: 540px;
   }
 
+  .u-section-1 .u-icon-1 {
+    margin-left: calc(((100% - 540px) / 2) + 210px);
+  }
+
+  .u-section-1 .u-icon-2 {
+    margin-left: calc(((100% - 540px) / 2) + 210px);
+  }
+
   .u-section-1 .u-text-2 {
     margin-bottom: 47px;
   }
@@ -104,6 +146,14 @@
   .u-section-1 .u-text-1 {
     font-size: 1.25rem;
     width: 340px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-left: calc(((100% - 340px) / 2) + 132px);
+  }
+
+  .u-section-1 .u-icon-2 {
+    margin-left: calc(((100% - 340px) / 2) + 132px);
   }
 
   .u-section-1 .u-text-2 {
@@ -729,5 +779,4 @@
 .u-section-5 .u-image-2:before,
 .u-section-5 .u-image-2 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}.socialmedia {
 }
